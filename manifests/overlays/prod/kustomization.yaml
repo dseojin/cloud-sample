@@ -11,7 +11,7 @@ patchesStrategicMerge:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namePrefix: prod-
-images:
 
+images:
 - name: cepgstapacr.azurecr.io/test102602
-  newTag: "latest"
+  newTag: "202410260820"
